@@ -1,17 +1,58 @@
-# byte_store
+# Byte Store
 
-A new Flutter project.
+Byte Store is a modern, full-stack e-commerce application built with a primary focus on implementing **Clean Architecture**, optimizing **Bloc State Management**, and elevating **UI/UX standards**. 
 
-## Getting Started
+This project represents a complete architectural overhaul and rewrite of my legacy repository, **Tech Commerce**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📑 The Story: Why the Rework?
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+My legacy project, **Tech Commerce**, was a previous e-commerce application I developed to explore full-stack integration with Flutter. However, as my understanding of production-ready, industry-standard software architecture matured, I identified that the codebase had significant room for improvement—particularly regarding maintainability, clean decoupling, and robust state management. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Byte Store** was born out of the necessity to resolve these architectural shortcomings, transforming the original concept into a scalable, high-performance, and highly maintainable system.
+
+---
+
+## 🎯 Key Focus & Enhancements
+
+1. **Clean Architecture:** Separating concerns into decoupled layers (*Data, Domain, and Presentation*) to ensure the application is highly testable and maintainable.
+2. **Bloc Optimization:** Leveraging Flutter Bloc to handle complex application states predictably and efficiently.
+3. **Backend Bridge App:** Developing a centralized backend service that serves as a seamless, high-performance data pipeline for the frontend.
+4. **UI/UX Refinement:** Redesigning the entire interface from scratch to ensure a modern, sleek, intuitive, and responsive user experience.
+
+---
+
+## 🚀 Project Progress & Roadmap
+
+This application is being developed using an **incremental development** approach. Below is the current progress:
+
+### Feature: Home Screen
+- [x] Modern UI/UX Slicing & Layout Design
+- [ ] BLoC State Management Integration
+- [ ] Backend Bridge API Integration (Product Fetching)
+
+### Upcoming Features & Screens
+- [ ] Product Detail Screen
+- [ ] Search Screen
+- [ ] Cart Screen
+- [ ] Wishlist Screen
+- [ ] User Profile Screen
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend (Mobile)
+* **Framework:** Flutter
+* **State Management:** Bloc
+* **Architecture:** Clean Architecture
+
+### Backend & Database
+* **Runtime Environment:** Node.js / Express.js
+* **Language:** TypeScript
+* **ORM:** Prisma
+* **Database:** PostgreSQL (via Supabase)
+
+---
+*Note: The legacy repository can be viewed at [GitHub - Tech Commerce](https://github.com/bima1313/Tech_Commerce_app).*
